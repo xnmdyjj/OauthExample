@@ -66,6 +66,14 @@ static NSString *const  AUTHORIZATION_URL = @"http://www.douban.com/service/auth
 	[accessResourcesButton setTitle:@"Accessing Protected Resources" forState:UIControlStateNormal];
 	[accessResourcesButton addTarget:self action:@selector(accessResourcesButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
 	[self.view addSubview:accessResourcesButton];
+	
+	
+	UIButton *testGDataButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+	testGDataButton.frame = CGRectMake(20.0, 280.0, 280.0, 40.0);
+	testGDataButton.backgroundColor = [UIColor clearColor];
+	[testGDataButton setTitle:@"test GData" forState:UIControlStateNormal];
+	[testGDataButton addTarget:self action:@selector(testGDataButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+	[self.view addSubview:testGDataButton];
 }
 
 
@@ -209,6 +217,11 @@ static NSString *const  AUTHORIZATION_URL = @"http://www.douban.com/service/auth
 
 -(void)apiTicket:(OAServiceTicket *)ticket didFailWithError:(NSError *)error {
 	NSLog(@"access resources error");
+}
+
+
+-(void)testGDataButtonPressed:(id)sender {
+	
 }
 
 - (void)dealloc {
