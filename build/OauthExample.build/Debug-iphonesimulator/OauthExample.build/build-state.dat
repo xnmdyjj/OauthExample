@@ -1,7 +1,7 @@
 TOauthExample
 v7
 r0
-t283416872.711495
+t283428186.022753
 cCheck dependencies
 cProcessInfoPlistFile /Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator/OauthExample.app/Info.plist OauthExample-Info.plist
 cCompileXIB /Users/cybercom/Documents/OauthExample/MainWindow.xib
@@ -3559,9 +3559,9 @@ i"OAToken.h"
 i"OAConsumer.h"
 
 N/Users/cybercom/Documents/OauthExample/Classes/OauthViewController.m
-c000000004B3461A400000000000025E2
-t1261724068
-s9698
+c000000004B348DD700000000000026BF
+t1261735383
+s9919
 i"OauthViewController.h"
 i"OAMutableURLRequest.h"
 i"OADataFetcher.h"
@@ -4044,11 +4044,11 @@ t1261637044
 s10546384
 
 N/Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator/OauthExample.app
-t1261724072
+t1261735386
 s204
 
 N/Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator/OauthExample.app.dSYM
-t1261724072
+t1261735385
 s102
 
 N/Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator/OauthExample.app/English.lproj/InfoPlist.strings
@@ -4072,8 +4072,8 @@ t1261640729
 s329
 
 N/Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator/OauthExample.app/OauthExample
-t1261724072
-s1680064
+t1261735385
+s1680216
 
 N/Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator/OauthExample.app/PkgInfo
 t1261641068
@@ -5353,8 +5353,8 @@ t1261723668
 s38888
 
 N/Users/cybercom/Documents/OauthExample/build/OauthExample.build/Debug-iphonesimulator/OauthExample.build/Objects-normal/i386/OauthViewController.o
-t1261724072
-s53636
+t1261735384
+s54348
 
 N/Users/cybercom/Documents/OauthExample/build/OauthExample.build/Debug-iphonesimulator/OauthExample.build/Objects-normal/i386/hmac.o
 t1261723668
@@ -9403,7 +9403,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies283416872#283416872#0(0"0(0#1#0"4300885448#0"0#
+lSLF07#2@18"Check dependencies283428184#283428184#0(0"0(0#1#0"4300885448#0"0#
 
 CCompileC build/OauthExample.build/Debug-iphonesimulator/OauthExample.build/Objects-normal/i386/Base64Transcoder.o /Users/cybercom/Documents/OauthExample/Classes/Crypto/Base64Transcoder.c normal i386 c com.apple.compilers.gcc.4_2
 s283332809.583499
@@ -13742,8 +13742,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@80"Compile /Users/cybercom/Documents/OauthExample/Classes/OauthExampleAppDelegate.m283416468#283416468#0(0"0(0#0#72"/Users/cybercom/Documents/OauthExample/Classes/OauthExampleAppDelegate.m4300885448#2271"    cd /Users/cybercom/Documents/OauthExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/OauthExample/build/OauthExample.build/Debug-iphonesimulator/OauthExample.build/OauthExample-generated-files.hmap -I/Users/cybercom/Documents/OauthExample/build/OauthExample.build/Debug-iphonesimulator/OauthExample.build/OauthExample-own-target-headers.hmap -I/Users/cybercom/Documents/OauthExample/build/OauthExample.build/Debug-iphonesimulator/OauthExample.build/OauthExample-all-target-headers.hmap -iquote /Users/cybercom/Documents/OauthExample/build/OauthExample.build/Debug-iphonesimulator/OauthExample.build/OauthExample-project-headers.hmap -F/Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator -F/Users/cybercom/Documents/OauthExample -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/Developer/Library/Frameworks -I/Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/libxml2 -I/Users/cybercom/Documents/OauthExample/build/OauthExample.build/Debug-iphonesimulator/OauthExample.build/DerivedSources/i386 -I/Users/cybercom/Documents/OauthExample/build/OauthExample.build/Debug-iphonesimulator/OauthExample.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OauthExample_Prefix-dheataeeydhlgeczjyoglrxawmxj/OauthExample_Prefix.pch -c /Users/cybercom/Documents/OauthExample/Classes/OauthExampleAppDelegate.m -o /Users/cybercom/Documents/OauthExample/build/OauthExample.build/Debug-iphonesimulator/OauthExample.build/Objects-normal/i386/OauthExampleAppDelegate.o0#
 
 CCompileC build/OauthExample.build/Debug-iphonesimulator/OauthExample.build/Objects-normal/i386/OauthViewController.o /Users/cybercom/Documents/OauthExample/Classes/OauthViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s283416872.196906
-e283416872.323760
+s283428184.594162
+e283428184.946339
 r1
 xCompileC
 xbuild/OauthExample.build/Debug-iphonesimulator/OauthExample.build/Objects-normal/i386/OauthViewController.o
@@ -13752,7 +13752,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/cybercom/Documents/OauthExample/Classes/OauthViewController.m283416872#283416872#0(0"0(0#0#68"/Users/cybercom/Documents/OauthExample/Classes/OauthViewController.m4300885448#2263"    cd /Users/cybercom/Documents/OauthExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/OauthExample/build/OauthExample.build/Debug-iphonesimulator/OauthExample.build/OauthExample-generated-files.hmap -I/Users/cybercom/Documents/OauthExample/build/OauthExample.build/Debug-iphonesimulator/OauthExample.build/OauthExample-own-target-headers.hmap -I/Users/cybercom/Documents/OauthExample/build/OauthExample.build/Debug-iphonesimulator/OauthExample.build/OauthExample-all-target-headers.hmap -iquote /Users/cybercom/Documents/OauthExample/build/OauthExample.build/Debug-iphonesimulator/OauthExample.build/OauthExample-project-headers.hmap -F/Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator -F/Users/cybercom/Documents/OauthExample -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/Developer/Library/Frameworks -I/Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/libxml2 -I/Users/cybercom/Documents/OauthExample/build/OauthExample.build/Debug-iphonesimulator/OauthExample.build/DerivedSources/i386 -I/Users/cybercom/Documents/OauthExample/build/OauthExample.build/Debug-iphonesimulator/OauthExample.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OauthExample_Prefix-dheataeeydhlgeczjyoglrxawmxj/OauthExample_Prefix.pch -c /Users/cybercom/Documents/OauthExample/Classes/OauthViewController.m -o /Users/cybercom/Documents/OauthExample/build/OauthExample.build/Debug-iphonesimulator/OauthExample.build/Objects-normal/i386/OauthViewController.o0#
+lSLF07#2@76"Compile /Users/cybercom/Documents/OauthExample/Classes/OauthViewController.m283428184#283428184#0(0"0(0#0#68"/Users/cybercom/Documents/OauthExample/Classes/OauthViewController.m4300885448#2263"    cd /Users/cybercom/Documents/OauthExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/OauthExample/build/OauthExample.build/Debug-iphonesimulator/OauthExample.build/OauthExample-generated-files.hmap -I/Users/cybercom/Documents/OauthExample/build/OauthExample.build/Debug-iphonesimulator/OauthExample.build/OauthExample-own-target-headers.hmap -I/Users/cybercom/Documents/OauthExample/build/OauthExample.build/Debug-iphonesimulator/OauthExample.build/OauthExample-all-target-headers.hmap -iquote /Users/cybercom/Documents/OauthExample/build/OauthExample.build/Debug-iphonesimulator/OauthExample.build/OauthExample-project-headers.hmap -F/Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator -F/Users/cybercom/Documents/OauthExample -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/Developer/Library/Frameworks -I/Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/libxml2 -I/Users/cybercom/Documents/OauthExample/build/OauthExample.build/Debug-iphonesimulator/OauthExample.build/DerivedSources/i386 -I/Users/cybercom/Documents/OauthExample/build/OauthExample.build/Debug-iphonesimulator/OauthExample.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OauthExample_Prefix-dheataeeydhlgeczjyoglrxawmxj/OauthExample_Prefix.pch -c /Users/cybercom/Documents/OauthExample/Classes/OauthViewController.m -o /Users/cybercom/Documents/OauthExample/build/OauthExample.build/Debug-iphonesimulator/OauthExample.build/Objects-normal/i386/OauthViewController.o0#
 
 CCompileC build/OauthExample.build/Debug-iphonesimulator/OauthExample.build/Objects-normal/i386/hmac.o /Users/cybercom/Documents/OauthExample/Classes/Crypto/hmac.c normal i386 c com.apple.compilers.gcc.4_2
 s283332809.584896
@@ -14046,23 +14046,23 @@ CCpResource build/Debug-iphonesimulator/OauthExample.app/symbols0.pbxsymbols Cla
 r0
 
 CGenerateDSYMFile /Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator/OauthExample.app.dSYM /Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator/OauthExample.app/OauthExample
-s283416872.557942
-e283416872.708510
+s283428185.806126
+e283428185.989836
 r1
 xGenerateDSYMFile
 x/Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator/OauthExample.app.dSYM
 x/Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator/OauthExample.app/OauthExample
-lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/OauthExample.app.dSYM build/Debug-iphonesimulator/OauthExample.app/OauthExample283416872#283416872#0(0"0(0#0#96"/Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator/OauthExample.app/OauthExample4300885448#398"    cd /Users/cybercom/Documents/OauthExample    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator/OauthExample.app/OauthExample -o /Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator/OauthExample.app.dSYM0#
+lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/OauthExample.app.dSYM build/Debug-iphonesimulator/OauthExample.app/OauthExample283428185#283428185#0(0"0(0#0#96"/Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator/OauthExample.app/OauthExample4300885448#398"    cd /Users/cybercom/Documents/OauthExample    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator/OauthExample.app/OauthExample -o /Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator/OauthExample.app.dSYM0#
 
 CLd /Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator/OauthExample.app/OauthExample normal i386
-s283416872.323836
-e283416872.557779
+s283428184.946425
+e283428185.805953
 r1
 xLd
 x/Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator/OauthExample.app/OauthExample
 xnormal
 xi386
-lSLF07#2@101"Link /Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator/OauthExample.app/OauthExample283416872#283416872#0(0"0(0#0#0"4300885448#1054"    cd /Users/cybercom/Documents/OauthExample    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -L/Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator -F/Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator -F/Users/cybercom/Documents/OauthExample -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/Developer/Library/Frameworks -filelist /Users/cybercom/Documents/OauthExample/build/OauthExample.build/Debug-iphonesimulator/OauthExample.build/Objects-normal/i386/OauthExample.LinkFileList -mmacosx-version-min=10.5 -lxml2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator/OauthExample.app/OauthExample0#
+lSLF07#2@101"Link /Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator/OauthExample.app/OauthExample283428184#283428185#0(0"0(0#0#0"4300885448#1054"    cd /Users/cybercom/Documents/OauthExample    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -L/Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator -F/Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator -F/Users/cybercom/Documents/OauthExample -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/Developer/Library/Frameworks -filelist /Users/cybercom/Documents/OauthExample/build/OauthExample.build/Debug-iphonesimulator/OauthExample.build/Objects-normal/i386/OauthExample.LinkFileList -mmacosx-version-min=10.5 -lxml2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator/OauthExample.app/OauthExample0#
 
 CProcessInfoPlistFile /Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator/OauthExample.app/Info.plist OauthExample-Info.plist
 s283333868.663328
@@ -14190,10 +14190,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@34"Precompile OauthExample_Prefix.pch283333868#283333869#0(0"0(0#0#62"/Users/cybercom/Documents/OauthExample/OauthExample_Prefix.pch4300885448#2004"    cd /Users/cybercom/Documents/OauthExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/Documents/OauthExample/build/OauthExample.build/Debug-iphonesimulator/OauthExample.build/OauthExample-generated-files.hmap -I/Users/cybercom/Documents/OauthExample/build/OauthExample.build/Debug-iphonesimulator/OauthExample.build/OauthExample-own-target-headers.hmap -I/Users/cybercom/Documents/OauthExample/build/OauthExample.build/Debug-iphonesimulator/OauthExample.build/OauthExample-all-target-headers.hmap -iquote /Users/cybercom/Documents/OauthExample/build/OauthExample.build/Debug-iphonesimulator/OauthExample.build/OauthExample-project-headers.hmap -F/Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator -F/Users/cybercom/Documents/OauthExample -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/Developer/Library/Frameworks -I/Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator/include -I/Users/cybercom/Documents/OauthExample/build/OauthExample.build/Debug-iphonesimulator/OauthExample.build/DerivedSources/i386 -I/Users/cybercom/Documents/OauthExample/build/OauthExample.build/Debug-iphonesimulator/OauthExample.build/DerivedSources -c /Users/cybercom/Documents/OauthExample/OauthExample_Prefix.pch -o /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OauthExample_Prefix-gxudxhsfllxbpdfwfqmfdfcccbmi/OauthExample_Prefix.pch.gch0#
 
 CTouch /Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator/OauthExample.app
-s283416872.708585
-e283416872.711469
+s283428185.989915
+e283428186.022713
 r1
 xTouch
 x/Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator/OauthExample.app
-lSLF07#2@89"Touch /Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator/OauthExample.app283416872#283416872#0(0"0(0#0#0"4300885448#283"    cd /Users/cybercom/Documents/OauthExample    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator/OauthExample.app0#
+lSLF07#2@89"Touch /Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator/OauthExample.app283428185#283428186#0(0"0(0#0#0"4300885448#283"    cd /Users/cybercom/Documents/OauthExample    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/cybercom/Documents/OauthExample/build/Debug-iphonesimulator/OauthExample.app0#
 

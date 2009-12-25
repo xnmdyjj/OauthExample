@@ -126,6 +126,8 @@ static NSString *const  AUTHORIZATION_URL = @"http://www.douban.com/service/auth
                          delegate:self
                 didFinishSelector:@selector(requestTokenTicket:didFinishWithData:)
                   didFailSelector:@selector(requestTokenTicket:didFailWithError:)];
+	[request release];
+	[fetcher release];
 }
 
 - (void)requestTokenTicket:(OAServiceTicket *)ticket didFinishWithData:(NSData *)data {
@@ -133,6 +135,7 @@ static NSString *const  AUTHORIZATION_URL = @"http://www.douban.com/service/auth
 		NSString *responseBody = [[NSString alloc] initWithData:data
 													   encoding:NSUTF8StringEncoding];
 		OAToken *aToken = [[OAToken alloc] initWithHTTPResponseBody:responseBody];
+		[responseBody release];
 		self.requestToken = aToken;
 		[aToken release];
 		
@@ -168,6 +171,8 @@ static NSString *const  AUTHORIZATION_URL = @"http://www.douban.com/service/auth
                          delegate:self
                 didFinishSelector:@selector(accessTokenTicket:didFinishWithData:)
                   didFailSelector:@selector(accessTokenTicket:didFailWithError:)];
+	[request release];
+	[fetcher release];
 }
 
 - (void)accessTokenTicket:(OAServiceTicket *)ticket didFinishWithData:(NSData *)data {
@@ -175,6 +180,7 @@ static NSString *const  AUTHORIZATION_URL = @"http://www.douban.com/service/auth
 		NSString *responseBody = [[NSString alloc] initWithData:data
 													   encoding:NSUTF8StringEncoding];
 		OAToken *aToken = [[OAToken alloc] initWithHTTPResponseBody:responseBody];
+		[responseBody release];
 		self.accessToken = aToken;
 		[aToken release];
 		[accessToken storeInUserDefaultsWithServiceProviderName:@"yujianjun" prefix:@"douban-objective-c"];
@@ -205,6 +211,8 @@ static NSString *const  AUTHORIZATION_URL = @"http://www.douban.com/service/auth
                          delegate:self
                 didFinishSelector:@selector(apiTicket:didFinishWithData:)
                   didFailSelector:@selector(apiTicket:didFailWithError:)];
+	[request release];
+	[fetcher release];
 }	
 
 -(void)apiTicket:(OAServiceTicket *)ticket didFinishWithData:(NSData *)data {

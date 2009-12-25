@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -265,6 +267,8 @@
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
+								<string>F18600BD10E49289007EC16F</string>
+								<string>F18600BE10E49289007EC16F</string>
 								<string>29B97323FDCFA39411CA2CEA</string>
 								<string>19C28FACFE9D520D11CA2CBB</string>
 								<string>1C37FBAC04509CD000000102</string>
@@ -273,6 +277,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>6</integer>
 									<integer>2</integer>
 									<integer>1</integer>
 									<integer>0</integer>
@@ -298,7 +303,7 @@
 							<real>292</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>41 162 1418 816 0 0 1600 978 </string>
+						<string>201 109 1418 816 0 0 1600 978 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -309,14 +314,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>OauthViewController.m</string>
+								<string>GDataEntryPhotoBase.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,11 +327,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>OauthViewController.m</string>
+										<string>GDataEntryPhotoBase.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>F186045B10E4994E007EC16F</string>
+										<string>F186049810E4A071007EC16F</string>
 										<key>history</key>
 										<array>
 											<string>F144F29B10E35378004704D0</string>
@@ -345,9 +348,20 @@
 											<string>F144F3D710E379A5004704D0</string>
 											<string>F144F3D810E379A5004704D0</string>
 											<string>F144F3D910E379A5004704D0</string>
-											<string>F186045710E49929007EC16F</string>
-											<string>F186045810E49929007EC16F</string>
-											<string>F186045910E49929007EC16F</string>
+											<string>F186048A10E4A071007EC16F</string>
+											<string>F186048B10E4A071007EC16F</string>
+											<string>F186048C10E4A071007EC16F</string>
+											<string>F186048D10E4A071007EC16F</string>
+											<string>F186048E10E4A071007EC16F</string>
+											<string>F186048F10E4A071007EC16F</string>
+											<string>F186049010E4A071007EC16F</string>
+											<string>F186049110E4A071007EC16F</string>
+											<string>F186049210E4A071007EC16F</string>
+											<string>F186049310E4A071007EC16F</string>
+											<string>F186049410E4A071007EC16F</string>
+											<string>F186049510E4A071007EC16F</string>
+											<string>F186049610E4A071007EC16F</string>
+											<string>F186049710E4A071007EC16F</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -361,7 +375,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1104, 566}}</string>
 								<key>RubberWindowFrame</key>
-								<string>41 162 1418 816 0 0 1600 978 </string>
+								<string>201 109 1418 816 0 0 1600 978 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -381,7 +395,7 @@
 								<key>Frame</key>
 								<string>{{0, 571}, {1104, 204}}</string>
 								<key>RubberWindowFrame</key>
-								<string>41 162 1418 816 0 0 1600 978 </string>
+								<string>201 109 1418 816 0 0 1600 978 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -551,7 +565,7 @@
 		<string>/Users/cybercom/Documents/OauthExample/OauthExample.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>41 162 1418 816 0 0 1600 978 </string>
+	<string>201 109 1418 816 0 0 1600 978 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
